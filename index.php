@@ -13,18 +13,18 @@
       <table>
         <tr>
           <td>Name</td>
-          <td><input type="text" name="name" id="name"></td>
+          <td><input type="text" name="name" id="name" placeholder="Name"></td>
         </tr>
         <tr>
           <td>Phone</td>
-          <td><input type="text" name="phone" id="phone"></td>
+          <td><input type="text" name="phone" id="phone" placeholder="Phone"></td>
         </tr>
         <tr>
           <td>Message</td>
           <td><textarea name="message" cols="30" id="message" placeholder="Enter message.."></textarea></td>
         </tr>
         <tr>
-          <td colspan="2" align="right"><input type="submit" value="Send"></td>
+          <td colspan="2" align="right"><input type="submit" id="submit" value="Send"></td>
         </tr>
       </table>
     </form>

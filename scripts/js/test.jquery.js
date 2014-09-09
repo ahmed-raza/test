@@ -8,7 +8,7 @@ $(document).ready(function(){
       url: 'scripts/php/send.php',
       data: { name: name, phone: phone, message: message },
       success: function(data){
-        $('div#feedback').html(data);
+        alert(data);
       }
     });
 
