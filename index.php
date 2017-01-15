@@ -22,7 +22,7 @@
               $income = $_POST['income'];
               if (eligibility_check($status, $citizenship, $age, $income)) {
                 $alerts['success'] = "You are eligible for loan process. You will be redirected to next step in 5 seconds.";
-                $_SESSION['eligiblity'] = true; // Setting value in session that the user has passed the eligibility form. 
+                $_SESSION['eligibility'] = true; // Setting value in session that the user has passed the eligibility form. 
                 header('refresh:5;url=car_loan.php');
               }else{
                 $alerts['error'] = "Sorry! You are not eligible for this loan.";

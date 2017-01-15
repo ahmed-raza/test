@@ -15,6 +15,11 @@
 </head>
 <body>
   <?php
+    // First check if the user has actually passed the eligibility form or not.
+    session_start();
+    if(!isset($_SESSION['eligibility'])):
+      header('Location: index.php');
+    endif;
     $alerts = array(); // this is the alerts bag.
     if ($_POST) {
       if (!empty($_POST['cars'])) {
@@ -28,6 +33,7 @@
               if (!empty($_POST['markup_rate'])) {
                 $markup_rate = $_POST['markup_rate'];
                 $alerts['success'] = "Total payment value per month for your ". $cars ." is ". calculate_plan($cars, $prices, $dpayment, $years, $markup_rate) .".";
+                session_destroy();
               }
             }
           }
