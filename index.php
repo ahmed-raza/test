@@ -5,33 +5,6 @@
   <title>Document</title>
   <script type="text/javascript" src="js/jquery.js"></script>
   <script type="text/javascript" src="js/require.js"></script>
-  <script>
-    var https = "https";
-
-    var username = "cd61aa20ca0e42b3b571dd27e970a528";
-    var password = "ab8c1e862977c14456593f0310faa176";
-    var auth = "Basic " + new Buffer(username + ':' + password).toString('base64');
-
-    var request = https.request({
-        method: "GET",
-        host: "api.intrinio.com",
-        path: "/companies?ticker=AAPL",
-        headers: {
-            "Authorization": auth
-        }
-    }, function(response) {
-        var json = "";
-        response.on('data', function (chunk) {
-            json += chunk;
-        });
-        response.on('end', function() {
-            var company = JSON.parse(json);
-            console.log(company);
-        });
-    });
-
-    request.end();
-  </script>
   <link rel="stylesheet" type="text/css" href="foxholder/src/foxholder-styles.css">
   <link rel="stylesheet" type="text/css" href="voice_input/speech-input.css">
   <!-- <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'> -->
@@ -78,7 +51,4 @@
     $string = preg_replace('/[^a-zA-Z0-9_.]/', '_', $string);
     print $string;
   ?>
-  <?php // echo date('i'); ?>
-  <?php echo date('F d, Y', 1497931200); ?>
 </body>
-</html>
