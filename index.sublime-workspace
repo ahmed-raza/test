@@ -1,0 +1,535 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"form",
+				"form"
+			],
+			[
+				"slide",
+				"slideToggle"
+			],
+			[
+				"vide",
+				"videoPath"
+			],
+			[
+				"curre",
+				"current_path"
+			],
+			[
+				"va",
+				"value2"
+			],
+			[
+				"$dat",
+				"$date_selection"
+			],
+			[
+				"$mul",
+				"$multi_date"
+			],
+			[
+				"date_defa",
+				"date_default_timezone_set"
+			],
+			[
+				"$me",
+				"$multi_date"
+			],
+			[
+				"$od",
+				"$node"
+			],
+			[
+				"$da",
+				"$date_selection"
+			],
+			[
+				"$form",
+				"$form_state"
+			],
+			[
+				"$for",
+				"$form_state"
+			],
+			[
+				"alt",
+				"alt_text"
+			],
+			[
+				"eho",
+				"echo\techo \"…\""
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"user",
+				"user_is_logged_in"
+			],
+			[
+				"$end",
+				"$endformatted"
+			],
+			[
+				"date_timezo",
+				"date_timezone_set"
+			],
+			[
+				"date_time",
+				"date_timestamp_set"
+			],
+			[
+				"$te",
+				"$test_time"
+			],
+			[
+				"strto",
+				"strtotime"
+			],
+			[
+				"defaul",
+				"date_default_timezone_set"
+			],
+			[
+				"has",
+				"hasClass"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"remo",
+				"removeAttr"
+			],
+			[
+				"ful",
+				"full-width"
+			],
+			[
+				"gro",
+				"group-middle"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"grup",
+				"group-middle"
+			],
+			[
+				"$ima",
+				"$image_name"
+			],
+			[
+				"pre",
+				"preferences"
+			],
+			[
+				"$fr",
+				"$form_state"
+			],
+			[
+				"$co",
+				"$cookie_value"
+			],
+			[
+				"dat",
+				"date_field"
+			],
+			[
+				"da",
+				"date_field"
+			],
+			[
+				"tog",
+				"toggleClass"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"prev",
+				"preventDefault"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 96.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/tkn_new"
+	],
+	"file_history":
+	[
+		"/var/www/hria_web/sites/all/themes/hria_ca/css/hria-ca.styles.css",
+		"/var/www/hria_web/sites/all/themes/hria_ca/css/hria-ca.responsive.css",
+		"/var/www/hria_web/sites/all/themes/hria_ca/js/hria-ca.behaviors.js",
+		"/var/www/hria_web/sites/all/modules/custom/hriaweb/hriaweb.module",
+		"/var/www/untitled.php",
+		"/var/www/hria_web/sites/all/themes/hria_ca/templates/views-exposed-form.tpl.php",
+		"/var/www/hria_web/sites/all/themes/hria_ca/templates/views-view--hr-consultants--page.tpl.php",
+		"/home/ahmed/Documents/Web/cf.txt",
+		"/var/www/hria_web/sites/all/modules/contrib/maxlength/README.txt",
+		"/var/www/hria_web/sites/all/modules/custom/hriaweb/js/hriaweb.js",
+		"/var/www/hria_web/sites/all/themes/hria_ca/template.php",
+		"/var/www/projects/hriaweb.sublime-project",
+		"/var/www/hria_web/sites/all/modules/contrib/simpleads/simpleads.stat.inc",
+		"/var/www/hria_web/sites/all/modules/contrib/simpleads/simpleads.module",
+		"/var/www/hria_web/sites/all/modules/contrib/simpleads/includes/simpleads.helper.inc",
+		"/var/www/hria_web/sites/all/themes/hria_ca/templates/search-results.tpl.php",
+		"/home/ahmed/Documents/Web/HRIA/save_date.php",
+		"/var/www/hria_web/sites/default/settings.php",
+		"/var/www/hria_web/sites/all/themes/hria_ca/templates/html.tpl.php",
+		"/var/www/hria_web/sites/all/themes/hria_ca/templates/page.tpl.php",
+		"/var/www/hria_web/sites/all/themes/hria_ca/templates/taxonomy-term.tpl.php",
+		"/var/www/hria_web/sites/all/modules/contrib/taxonomy_display/README.txt",
+		"/var/www/hria_web/sites/all/themes/hria_ca/templates/ds-2col-stacked-fluid--taxonomy-term.tpl.php",
+		"/var/www/hria_web/sites/all/modules/contrib/ds/layouts/ds_2col_stacked_fluid/ds-2col-stacked-fluid.tpl.php",
+		"/var/www/hria_web/sites/all/themes/hria_ca/preprocess/page.preprocess.inc",
+		"/var/www/hria_web/themes/bartik/templates/page.tpl.php",
+		"/var/www/hria_web/sites/all/themes/hria_ca/process/page.process.inc",
+		"/var/www/hria_web/sites/all/themes/hria_ca/hria_ca.info",
+		"/var/www/hria_web/sites/all/modules/contrib/date/date.install",
+		"/var/www/hria_web/sites/all/modules/contrib/date/date_elements.inc",
+		"/home/ahmed/Documents/Words are only painted fire; a look is the fire it",
+		"/var/www/hria_web/sites/all/themes/hria_ca/templates/views-view--learn-connect.tpl.php",
+		"/var/www/hria_web/modules/system/system.module",
+		"/var/www/hria_web/sites/all/modules/contrib/addtocal/addtocal.module",
+		"/var/www/hria_web/sites/all/modules/contrib/simpleads/simpleads.info",
+		"/var/www/hria_web/sites/all/modules/contrib/addtocal/addtocal.info",
+		"/var/www/hria_web/sites/all/modules/custom/hria_articles/hria_articles.features.field_base.inc",
+		"/var/www/hria_web/sites/all/modules/custom/hria_articles/hria_articles.features.field_instance.inc",
+		"/var/www/hria_web/sites/all/modules/contrib/linkedin_company/README.md",
+		"/var/www/hria_web/sites/all/modules/contrib/linkedin_company/linkedin_company.module",
+		"/var/www/hria_web/sites/all/themes/hria_ca/templates/views-view-unformatted--team-profile.tpl.php",
+		"/var/www/hria_web/modules/node/node.admin.inc",
+		"/var/www/hria_web/modules/node/node.module",
+		"/var/www/hria_web/sites/all/modules/contrib/admin_menu/admin_menu.module",
+		"/var/www/hria_web/sites/all/modules/contrib/admin_menu/admin_menu.info",
+		"/var/www/hria_web/sites/all/modules/custom/hriaweb/hriaweb.info",
+		"/var/www/hria_web/sites/all/modules/custom/ad/ad.info",
+		"/home/ahmed/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/var/www/arletty/sites/default/settings.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/var/www/hria_web/sites/all/modules/contrib/simpleads",
+			"/var/www/hria_web/modules/system",
+			"/var/www/hria_web",
+			"/var/www/hria_web/sites/all/modules/contrib/simpleads",
+			"/var/www/hria_web/sites/all/modules/custom/hria_articles",
+			"/var/www/hria_web/sites/all/modules/custom",
+			"/var/www/hria_web/modules/node",
+			"/var/www/hria_web/sites/all/modules/contrib/admin_menu",
+			"/var/www/hria_web/sites/all/modules/contrib/linkedin_company"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"360",
+			"6",
+			"12",
+			"13",
+			"filter_divs",
+			"13",
+			"webform-client-form-817",
+			"817",
+			"webform-client-form-817",
+			"edit-submitted-presentation-can-we-consider-your-application-for-all-hria-events",
+			"edit-submitted-presentation-presentation-style",
+			"edit-submitted-presentation-learning-stream",
+			"edit-submitted-presentation-presentation-length",
+			"edit-submitted-social-content-content-level",
+			"edit-submitted-social-content-do-you-use-twitter",
+			"edit-submitted-nominee-work-does-the-nominee-work-in-alberta-or-work-for-an-organization-with-established-operations-in-alberta",
+			"edit-submitted-member-hria-is-the-nominee-a-member-of-hria",
+			"edit-submitted-award-category-award-category",
+			"edit-submitted-certification",
+			"edit-submitted-chapter-location",
+			"11",
+			"divs",
+			"field-widget-text-textarea-with-summary",
+			"attr",
+			"atl",
+			"level-4",
+			"_simpleads_activate_deactive_ad",
+			"simpleads_simpleads_ad_impression",
+			"impressions",
+			"_simpleads_stat_tab",
+			"_simpleads_stat_tab'",
+			"_simpleads_stat_tab",
+			"Suite 410, 1111 - 11 Ave SW Calgary, Alberta T2R 0G5",
+			"51.0412693,-114.062861",
+			"51.0414006,-114.0628562",
+			"51.043229, -114.088411",
+			"menu",
+			"message",
+			"->field_event_script['und'][0]['value']",
+			"$entity->field_date_multipledays['und'][0]",
+			"-special",
+			".page-node-29 .view-footer p",
+			"a')",
+			"$weekly_",
+			"$entity->field_date_weekly['und'][0]",
+			"$bi_",
+			"$entity->field_date_biweekly['und'][0]",
+			"$bi_",
+			"$entity->field_date_weekly['und'][0]",
+			"$weekly",
+			"$entity$entity",
+			"->field_date_biweekly['und'][0]",
+			"$bi",
+			"$multi",
+			"last",
+			"wrapal",
+			"addclass(",
+			"$bi",
+			"->field_date_biweekly['und']",
+			"->field_month['und']",
+			"$biweekly_start",
+			"->field_date_biweekly['und']",
+			"$day",
+			"$day_end_date",
+			"$day_start_end",
+			"$bi",
+			"bi",
+			"['und'][0]",
+			"body",
+			"news_img",
+			"news_body.html(",
+			"news_body.h",
+			"photo-credit",
+			"$end_timestamp",
+			"$end_offset",
+			"$end_date",
+			"$end_timestamp",
+			"$endTime",
+			"$start_offset",
+			"$start_date",
+			"$start_timestamp",
+			"$startTime",
+			"start",
+			"date(",
+			"system_configure_date_formats_form",
+			"admin/config/regional/date-time/formats/add",
+			"date(",
+			"Searching",
+			"date(",
+			"date_default_timezone_set(\"Canada/Central\"); ",
+			"Canada/Central",
+			"month-yea",
+			"db_insert",
+			"db_update",
+			"stats",
+			"update ad",
+			"update title",
+			"'title'",
+			"update",
+			"db_query",
+			">title",
+			"title",
+			"margin",
+			"block-views-ads-block-3",
+			"width",
+			"width:",
+			"width: 100%",
+			"flexslider-1",
+			"edit-field-choose-options-research-und",
+			"\n        <br>",
+			"error",
+			"_artiles_category",
+			"dummy_field_article",
+			"addtocal_render",
+			"field--name-field-save-to-calender",
+			"no",
+			"addtocal_render",
+			"ds",
+			"addtocal_render",
+			"truncate",
+			"addclass('",
+			"addclass",
+			"url",
+			"ur",
+			"calendar",
+			"field--name-body",
+			"style=\"font-size: 11.0818920135498px; line-height: 17.0439491271973px;\"",
+			"style=\"font-size: 12.006383895874px; line-height: 20.0063037872314px;\""
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"settings.",
+				"sites/default/settings.php"
+			],
+			[
+				"page.",
+				"themes/bartik/templates/page.tpl.php"
+			],
+			[
+				"settings",
+				"sites/default/settings.php"
+			],
+			[
+				"sites/all/themes/hria_ca/css",
+				"sites/all/themes/hria_ca/css/hria-ca.styles.css"
+			],
+			[
+				"hriaweb.module",
+				"sites/all/modules/custom/hriaweb/hriaweb.module"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 332.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

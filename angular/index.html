@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>My HTML File</title>
+    <style type="text/css">
+      pre {
+        background: #ccc;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid grey;
+        box-shadow: 0 0 3px;
+      }
+    </style>
+    <script src="js/angular.min.js"></script>
+  </head>
+  <body>
+  <script>
+    var app = angular.module("myApp", []);
+    app.directive("w3TestDirective", function() {
+    return {
+        template : "I was made in a directive constructor!"
+    };
+  </script>
+    <div ng-app="myApp" w3-test-directive>
+      <h1>Welcome</h1>
+      <p><input ng-model="txtCol" value="{{txtCol}}" type="color"></p>
+      <p><input ng-model="shadow" value="{{shadow}}" type="color"></p>
+    </div>
+  </body>
+</html>

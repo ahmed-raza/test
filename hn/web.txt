@@ -1,0 +1,13 @@
+HTML:
+  - H1 to H6 tags
+  - div tag
+  - p tag
+  - span tag
+  - ul and li tags
+  - fieldset and legend
+  - form and input tags (textarea tag also)
+  - label tag
+  - button tag
+  - a tag (anchor)
+
+Learn and practice all the above tags with their possible attributes.

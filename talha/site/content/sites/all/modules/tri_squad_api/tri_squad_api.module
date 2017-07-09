@@ -1,0 +1,39 @@
+<?php
+
+function tri_squad_api_menu(){
+  $items['tri_squad_api'] = array(
+    'page callback'=>'tri_squad_api_data',
+    'access arguments' => array('access content'),
+    );
+  return $items;
+}
+
+function tri_squad_api_data(){
+  global $base_url;
+  dsm($base_url);
+  if (isset($_GET['key']) && !empty($_GET['key']) {
+    if ($_GET['key'] == '123abc') {
+      $nodes = node_load_multiple(array(), array('type' => 'article'));
+      $data = [];
+      foreach ($nodes as $node) {
+        $tids = $node->field_tags['und'];
+        $tags = [];
+        foreach ($tids as $tid) {
+          $tag = taxonomy_term_load($tid['tid']);
+          $tags[] = $tag->name;
+        }
+        $data[] = [
+          'title'=>$node->title,
+          'body'=>$node->body['und'][0]['safe_value'],
+          'image'=>file_create_url($node->field_image['und'][0]['uri']),
+          'tags'=>$tags,
+        ];
+      }
+      return drupal_json_output($data);
+    }else{
+      return drupal_access_denied();
+    }
+  }else{
+    return drupal_access_denied();
+  }
+}

@@ -1,0 +1,48 @@
+html
+  head
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    link(rel="stylesheet", href="css/bootstrap.css")
+    link(rel="stylesheet", href="css/style.css")
+  body
+    nav.navbar.navbar-default
+      div.container-fluid
+        div.navbar-header
+          button(type="button", class="navbar-toggle collapsed", data-toggle="collapse", data-target="#bs-example-navbar-collapse-1", aria-expanded="false")
+            span.sr-only
+              Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+      a(class="navbar-brand", href="#")
+        Brand
+
+    div.collapse.navbar-collapse#bs-example-navbar-collapse-1
+      ul.nav.navbar-nav
+        li.active
+          a(href="#")
+            Link
+              span.sr-only
+                current
+        li
+          a(href="#")
+      ul.nav.navbar-nav.navbar-right
+        li
+          a(href="#")
+        li.dropdown
+          a(href="#", class="dropdown-toggle", data-toggle="dropdown", role="button", aria-haspopup="true", aria-expanded="false")
+            Dropdown
+              span.caret
+          ul.dropdown-menu
+            li
+              a(href="#") Action
+            li
+              a(href="#") Another action
+            li
+              a(href="#") Something else here
+            li(role="separator", class="divider")
+            li
+              a(href="#") Separated link
+    .container
+      ul
+        each item in items
+          li #{item.title}

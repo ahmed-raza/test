@@ -1,0 +1,63 @@
+body{
+  font-family: sans-serif;
+}
+fieldset{
+  width: 960px;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 20px;
+}
+legend{
+  font-size: 18px;
+}
+.group-left, .group-right {
+  width: 49%;
+  float: left;
+}
+.file-submit {
+  padding: 10px 5px 0px;
+}
+.group-right {
+  margin-left: 10px;
+}
+progress {
+  width: 100%;
+}
+#file{
+  width: 0.1px;
+  outline: none;
+}
+label{
+  color: orange;
+  box-shadow: 0 0 2px #ccc;
+  padding: 5px;
+  border-radius: 5px;
+  background: -moz-linear-gradient(top, orange 0%, yellow 50%, yellow 51%, orange 100%);
+  background: -webkit-linear-gradient(top, orange 0%, yellow 50%, yellow 51%, orange 100%);
+}
+label:hover{
+  cursor: pointer;
+  background: -moz-linear-gradient(top, orange 10%, yellow 50%, yellow 51%, orange 90%);
+  background: -webkit-linear-gradient(top, orange 10%, yellow 50%, yellow 51%, orange 90%);
+}
+label:active{
+  box-shadow: inset 5px 5px 15px;
+}
+.btn {
+  outline: none;
+  border: 0;
+  color: orange;
+  box-shadow: 0 0 2px #ccc;
+  padding: 5px;
+  border-radius: 5px;
+  background: -moz-linear-gradient(top, orange 0%, yellow 50%, yellow 51%, orange 100%);
+  background: -webkit-linear-gradient(top, orange 0%, yellow 50%, yellow 51%, orange 100%);
+}
+.btn:hover{
+  cursor: pointer;
+  background: -moz-linear-gradient(top, orange 10%, yellow 50%, yellow 51%, orange 90%);
+  background: -webkit-linear-gradient(top, orange 10%, yellow 50%, yellow 51%, orange 90%);
+}
+.btn:active{
+  box-shadow: inset 5px 5px 15px;
+}

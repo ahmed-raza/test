@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <link rel="stylesheet" type="text/css" href="foxholder/src/foxholder-styles.css">
+  <script type="text/javascript" src="foxholder/src/foxholder.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      var network = new ActiveXObject('WScript.Network');
+      console.log(network.computerName);
+      $('input#remove').attr('value', 'Helllo');
+      setInterval(function() {
+        $('body').animate({ backgroundColor: 'red' }, 300)
+        .animate({ backgroundColor: 'green' }, 300); 
+      }, 1000);
+      $('.form-container-1').foxholder({
+        demo: 2 //or other number of demo (1-15) you want to use
+      });
+    });
+  </script>
+</head>
+<body>
+  <?php print_r(gethostname()); ?>
+  <h1 class="color">Welcome</h1>
+  <div class="form-container-1">
+    <h3 class="text-center">Demo 1</h3>
+    <p class="text-muted text-center">Click on textarea or input to check</p>
+    <form>
+      <input id="first-input-1" type="text" placeholder="First Input" required />
+      <input id="second-input-1" type="email" placeholder="Second Input" required />
+      <textarea id="msg-1" placeholder="Message"> </textarea>
+      <button type="submit">Submit</button>
+      <input type="submit" value="Remove" id="remove" placeholder="Remove">
+    </form>
+  </div>
+  <?php
+    $string = "1&du*m my.pdf";
+    $string = preg_replace('/[^a-zA-Z0-9_.]/', '_', $string);
+    print $string;
+  ?>
+	<img src="/home/ahmed/Pictures/Screenshot from 2017-06-03 13:19:51.png">
+</body>
+</html>
