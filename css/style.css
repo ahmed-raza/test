@@ -1,3 +1,30 @@
+@font-face {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Orbitron Regular'), local('Orbitron-Regular'), url(my-font.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+body,
+.form-container form button {
+  background: #333333;
+  color: limegreen;
+  text-shadow: 0 0 5px limegreen;
+  font-family: 'Orbitron', sans-serif;
+}
+.form-container form input,
+.form-container form textarea,
+.form-container form button {
+  color: limegreen;
+  text-shadow: 0 0 5px limegreen;
+}
+.form-container form button {
+  border: none;
+  padding: 20px;
+  width: 100%;
+  box-shadow: 0 0 10px lime;
+  background: -webkit-linear-gradient(top, #333333, #333337);
+}
 .long-button {
   width: 100%;
 }
