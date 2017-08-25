@@ -1,0 +1,118 @@
+title:  "OOP (course 4): Static methods, Namespaces, Exceptions & Traits! Woh!"
+summary: |
+    Finally, we can really *unload* and see all the *cool* OOP stuff
+    that we haven't covered yet. These are the last missing pieces that
+    are standing between you and understanding any OO code you meet.
+
+    * Static methods
+    * Class constants
+    * Namespaces
+    * Autoloading (RIP `require` statements)
+    * `__toString` & the other magic functions
+    * Treat that `$object[1]` like an array (`ArrayAccess`)
+    * Throwing and catching ~~a baseball~~ Exceptions
+    * Traits! Horizontal code re-use
+    * Composition Versus Inheritance: Dressing your classes for success
+
+    Finally, you're going to start to see some *serious* pay-off from
+    these new, crazy OO skills you've got. In this tutorial, OO is here
+    to impress *us*. Dig in.
+
+illustration: oo-ep4.png
+
+# todo - fill in correctly!
+tuts_hero:
+   start_step: 'interface-document-it'
+   finish_step: 'composition-add-some-logging'
+
+challenge_repo: knpuniversity/oo-challenges
+
+chapters:
+    class-constants:
+        is_free:    true
+        video_key: 175372075
+        challenges:
+            - classconstants_replacestringswithconstantscoding
+            - classconstants_uppercaseconstantsmc
+            - classconstants_setconstantmc
+            - classconstants_hexcolorconstantsmc
+    static-vs-non-static-and-self:
+        is_free:    true
+        video_key: 175248058
+        challenges:
+            - staticvsnonstaticandself_staticpropertymc
+            - staticvsnonstaticandself_useselfkeywordcoding
+    static-methods:
+        is_free:    true
+        video_key: 175248837
+        challenges:
+            - staticmethods_staticgetallelementscoding
+            - staticmethods_fixerrorscoding
+            - staticmethods_staticvsnonstaticmc
+    namespaces-make-class-names-longer:
+        video_key: 175260333
+        challenges:
+            - namespacesmakeclassnameslonger_addnamespacecoding
+            - namespacesmakeclassnameslonger_usenamespacecoding
+            - namespacesmakeclassnameslonger_useonemorenamespacecoding
+            - namespacesmakeclassnameslonger_namespaceusagemc
+    autoloading-awesomeness:
+        video_key: 176368515
+        challenges:
+            - autoloadingawesomeness_addautoloadercoding
+            - autoloadingawesomeness_betterperformancemc
+    more-with-use-statements:
+        video_key: 176370043
+        challenges:
+            - morewithusestatements_usesmartautoloadercoding
+            - morewithusestatements_fixnamespacecoding
+    namespaces-core-php-classes:
+        video_key: 176370770
+        challenges:
+            - namespacescorephpclasses_addplanetdaylengthcoding
+            - namespacescorephpclasses_datetimemc
+    composer-autoloading:
+        video_key: 176389505
+        challenges: []
+        # not ready - requires a terminal in the challenge!
+        # - composerautoloading_composerautoloadercoding
+        # - composerautoloading_autoloadlegacycodecoding
+    throw-exceptions:
+        video_key: 176476893
+        challenges:
+            # Throwing exception prevents completing challenge:
+            # - throwexceptions_validateelementcoding
+            - throwexceptions_catchexceptioncoding
+            - throwexceptions_throwexceptiontmc
+    exception-classes:
+        video_key: 176477715
+        challenges:
+            - exceptionclasses_catchcertainexceptionmc
+            - exceptionclasses_throwcustomexceptionscoding
+    magic-methods:
+        video_key: 176480231
+        challenges:
+            - magicmethods_printobjectscoding
+            - magicmethods_setprivatepropertycoding
+            - magicmethods_adddesctructmethodcoding
+    array-access:
+        video_key: 176480298
+        challenges:
+            - arrayaccess_implementingarrayaccesscoding
+            - arrayaccess_arrayorobjectmc
+    iterator-aggregate:
+        video_key: 176484545
+        challenges:
+            - iteratoraggregate_implementinterfacecoding
+            - iteratoraggregate_countplanetscoding
+    traits-reuse:
+        video_key: 176484068
+        challenges:
+            - traitsreuse_reusenamecoding
+            - traitsreuse_inheritancevstraitsmc
+    composition-ftw:
+        video_key: 176521546
+        challenges:
+            - compositionftw_overrideclasscoding
+            - compositionftw_usecompositioncoding
+            - compositionftw_compositionmc

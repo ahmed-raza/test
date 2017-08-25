@@ -12,8 +12,13 @@
   <!-- <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'> -->
   <script type="text/javascript" src="foxholder/src/foxholder.js"></script>
   <script type="text/javascript" src="voice_input/speech-input.js"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript" src="js/custom_charts.js"></script>
   <script type="text/javascript">
     $(document).ready(function() {
+      $("#color-form input[type=color]").change(function(){
+        $("body").css('background', $(this).val());
+      });
       function checkTime(i) {
         if (i < 10) {
           i = "0" + i;
@@ -42,6 +47,8 @@
   </script>
 </head>
 <body>
+  <div id="chart_div"></div>
+  <div id="regions_div"></div>
   <h1>Welcome</h1>
   <div class="form-container-1">
     <h3>Demo 1</h3>
@@ -66,6 +73,10 @@
       <div class="col-lg-6">
         <h1 id="time"></h1>
         <h2><?php print date('D, F d, Y', time()); ?></h2>
+        <p><?php print date('F-d-Y', 1499918400); ?></p>
+        <form id="color-form">
+          <input type="color">
+        </form>
       </div>
     </div>
   </div>
